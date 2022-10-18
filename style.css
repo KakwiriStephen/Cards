@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,400;1,100&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:ital,wght@0,400;1,100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: ivory;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .container {
@@ -17,11 +17,12 @@ body {
 }
 
 .card {
-    width: 250px;
+    width: 254px;
     margin: 0px;
     background-color: white;
-    border-radius: 10px;
-    margin: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0.1px;
 }
 
 .image {
@@ -33,21 +34,55 @@ body {
 .card h2 {
     margin-bottom: 15px;
     padding: 20px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     color: white;
     font-weight: 50px;
 }
 
 .card p {
     padding: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .card a {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
     padding: 15px 20px;
     display: block;
     text-align: center;
     margin: 20px 50px;
     border-radius: 30px;
+    outline: 2px hsl(0, 0%, 95%);
+    outline-style: solid;
+}
+
+.card a:hover {
+    background-color: transparent;
+}
+
+#link1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#link1:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#link2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#link2:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#link3 {
+    color: hsl(179, 100%, 13%);
+}
+
+#link3:hover {
+    color: hsl(0, 0%, 95%);
 }
